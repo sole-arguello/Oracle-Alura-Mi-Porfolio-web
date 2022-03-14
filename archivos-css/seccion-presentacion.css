@@ -73,7 +73,7 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 500px){
+@media screen and (max-width: 300px){
     
     .banner__presentacion{
         margin-top: 50px;
