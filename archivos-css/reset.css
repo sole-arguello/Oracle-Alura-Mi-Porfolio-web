@@ -1,9 +1,40 @@
+*{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    box-sizing: border-box;
+}
 body {
     margin: 0;
     width: 100vw;
     background-color: rgb(226, 234, 235);
     font-family: Roboto, sans-serif;
 }
+
+main{
+    padding: 40px 40px;
+}
+
+/*elementos responsivos*
+.icon-menu{
+    font-size: 26px;
+    color:white;
+    cursor:pointer;
+    width:26px;
+    height: 100%;
+    display: none;
+    align-items: center;
+}
+
+#label-check{
+    width: 26px;
+    height: 100%;
+    display:none;
+}
+#check-menu{
+    display: none;
+}
+*/
 
 h1, h2, h3, h4, h5, h6 {
     margin: 0;
@@ -12,4 +43,49 @@ h1, h2, h3, h4, h5, h6 {
 
 ul, li {
     padding: 0;
+}
+
+@media screen and (max-width: 500px){
+    main{
+        padding: 0;
+    }/*
+    nav ul{
+        flex-direction: column;
+        background-color: #023877;
+        position:fixed;
+        left:0;
+        top:123px;
+        width: 100%;
+        height: 0px;
+        transition: all 300ms ease;
+        z-index: 100;
+        opacity:0;
+        visibility:hidden;
+       
+
+    }
+    nav ul li a{
+        display:block;
+        padding:12px;
+    }
+    
+
+    nav ul li a:hover{
+        transform: scale(1);
+        width: 100%;
+
+    }
+    .icon-menu{
+        display:flex;
+    }
+    #check-menu:checked ~ nav ul {
+        height: 500px;
+        visibility: visible;
+        opacity: 1;
+
+
+    }
+    #label-check{
+        display:block;
+    }*/
 }
