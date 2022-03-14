@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <title>Mi Porfolio</title>
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+        <link rel="stylesheet" href="/archivos-css/normalize.css">
+        <link rel="stylesheet" href="/archivos-css/reset.css">
+        <link rel="stylesheet" href="/archivos-css/cabecera.css">
+        <link rel="stylesheet" href="/archivos-css/cabecera-contenido.css">
+        <link rel="stylesheet" href="archivos-css/seccion-presentacion.css">
+    </head>
+    <body>
+<!----------- Encabezado con menu ---------------->
+        <header class="cabecera">
+           <!-- <input type="checkbox" id="btn-menu"/><!--funciona como boton-
+            <label class="desplegable__boton" for="btn-menu">
+                <i class="fa-solid fa-bars logo-menu"></i>Menu</label>-->
+                
+            <div class="cabecera__contenido">
+                <h1 class="cabecera__titulo">
+                    <a class="cabecera__titulo--nombre">
+                        <i class="fa-solid fa-graduation-cap logo-nombre"></i>
+                            Soledad Arguello</a>
+                </h1>
+                <nav class="menu">
+                    <ul class="menu__listas">    
+                        <li class="menu__items"><a class="menu__link" href="#inicio">Inicio</a></li>
+                        <li class="menu__items"><a class="menu__link" href="#sobremi">Sobre Mi</a></li>
+                        <li class="menu__items"><a class="menu__link" href="#skills">Skills</a></li>
+                        <li class="menu__items"><a class="menu__link" href="#hobbies">Hobbies</a></li>
+                        <li class="menu__items"><a class="menu__link" href="#">Formacion</a></li>
+                        <li class="menu__items"><a class="menu__link" href="#">Proyectos</a></li>
+                        <li class="menu__items"><a class="menu__link" href="#">Contactos</a></li>
+                
+                    </ul>
+                </nav>
+    
+            </div>
+        </header>
+    
+<!-------- Cuerpo de la pagina ------------>
+        <main>
+<!-------- Seccion HOME de presentacion --------->
+        <section id="inicio" class="banner">
+
+            <div class="banner__foto">
+                <img class="foto" src="imagenes/fotoporfolio.jpeg" 
+                alt="Foto personal del porfolio">
+            </div>
+            
+            <h2 class="banner__subtitulo">Bienvenidos a mi porfolio web</h2>
+            <p class="banner__texto1"> Mi nombre es Arguello Soledad y construyo paginas web</p>
+            <p class="banner__texto2">Soy Estudiante de Desarrollo Web,tengo 45 años, vivo en 
+              Argentina y actualmente participo en el proyecto Oracle One en AluraLatam.</p>
+                                                                    
+            <ul class="banner__redes"><!--etiqueta de bloque-->
+                <li class="banner__lista--redes">
+                    <a class="banner__link--redes" href="https://github.com/sole-arguello">
+                            GitHub<i class="fa-solid fa-arrow-up-right"></i></a>
+                </li>
+                <li class="banner__lista--redes">
+                    <a class="banner__link--redes" href="https://www.linkedin.com/in/soledad-arguello-02b905220/">
+                            Linkedin<i class="fa-solid fa-arrow-up-right"></i></a>
+                </li>        
+                <li class="banner__lista--redes">
+                    <a class="banner__link--redes" href="https://www.instagram.com/solearguello_">
+                            Istagram<i class="fa-solid fa-arrow-up-right"></i></a>
+                </li>
+                <li class="banner__lista--redes">
+                    <a class="banner__link--redes" href="archivos-pdf/curriculum.pdf">
+                            Curriculum<i class="fa-solid fa-arrow-up-right"></i></a>
+                </li>
+            </ul>
+            
+        </section>
+            <!--<section id="inicio" class="seccion__presentacion">
+                <div class="contenido__presentacion">
+                    <div class="foto">
+                        
+                    </div>
+
+                    <div class="descripcion">
+                        
+                    </div>
+                </div>
+            </section>-->
+<!-------- Seccion de Sobre Mi -------------
+            <section id="sobremi" class="seccion-sobre-mi secciones">
+                <h2  class="h2-sobre-mi">Sobre mi</h2>                
+                <div class="div-contenido-sobremi">
+
+                    <p class="p-sobre-mi">Empece mi trayectoria profesional en atencion al cliente en call center para telefonica.
+                        Actualmente soy estudiante de Desarrollo Web y Aplicaciones Digiales (Titulos intermedios: 
+                        Programadora - Desarrador Full Stack - Programador de dispositivos Móviles).</p><br>
+            
+                    <p class="p-sobre-mi">Soy una persona curiosa, me gusta resolver problemas, soy autodidacta, continuamente busco 
+                        capacitarme y los desafios me motivan a encontrar las mejores soluciones.
+                        Actualmente estoy en el Proyecto One de Oracle y Alura, capacitandome como Full Stack Junior, 
+                        me gusta trabajar en equipo, cooperando con todos y apoyando de la mejor manera posoble, 
+                        con grande satisfaccion en esnseñar y aprender.</p><br>
+            
+                    <p class="p-sobre-mi">Busco oportunidades para hacer practicas en el area de tecnologia de la informacion, 
+                        donde poder desarrollar   los conocimientos tecnicos en los cuales estoy siendo capacitada, 
+                        adquiriendo asi experiencia y crecer junto a la empresa y mis compañeros de trabajo.</p>
+                 
+                </div>
+                <div class="div-firma">
+                    <img class="img-firma-sobre-mi" 
+                    src="imagenes/firma.png" alt="mi firma personal"> 
+                </div>
+                
+            </section>
+<!-------- Seccion de skills -------------
+            <section id="skills" class="seccion-skills secciones">
+                <div class="div-h2-logo">
+                    <h2  class="h2-skills">Skills <i class="fa-solid fa-code"></i> </h2>
+                </div class="div-nav">
+                    <nav class="nav-contenido-lista-skills">
+                    <ul class="ul-skills">
+                        <li class="li-skills">
+                            <p class="p-skills">Javascript </p>
+                            <i class="fa-brands fa-js-square i-logo-skills"></i>
+                            <a class="a-skills-certificados" href="archivos-pdf/Certicados js.pdf">Certificados</a>
+                        </li>
+                            
+                        <li class="li-skills">
+                            <p class="p-skills">HTML</p>
+                            <i class="fa-brands fa-html5 i-logo-skills"></i>
+                            <a class="a-skills-certificados" href="archivos-pdf/">Certificados</a>
+                        </li>
+                            
+                        <li class="li-skills">
+                            <p class="p-skills">CSS</p>
+                            <i class="fa-brands fa-css3-alt i-logo-skills"></i>
+                            <a class="a-skills-certificados" href="archivos-pdf/">Certificados</a>
+                        </li>
+                            
+                        <li class="li-skills">
+                            <p class="p-skills">Python</p>
+                            <i class="fa-brands fa-python i-logo-skills"></i>
+                            <a class="a-skills-certificados" href="archivos-pdf/">Certificados</a>
+                        </li>
+                            
+                        <li class="li-skills">
+                            <p class="p-skills">Git y GitHub 
+                            <i class="fa-brands fa-git-alt logo-git"></i> <i class="fa-brands fa-github logo-git"></i></p>
+                             <a class="a-skills-certificados" href="archivos-pdf/">Certificados</a>
+                        </li>
+                    
+                        <li class="li-skills">
+                            <p class="p-skills">SoftSkills</p>
+                            <img class="logo-soft" src="imagenes/soft.png" alt="logo js">
+                            <a class="a-skills-certificados" href="archivos-
+                                    pdf/">Certificados</a>
+                        </li>
+                    </ul>
+                </nav>
+
+            </section>
+<!------ Secccion de Hobbies ---------------
+            <section class="seccion-hobbies">
+                <div class="div-h2-hobbies">
+                    <h2 id="hobbies" class="h2-hobbies">Hobbies</h2>
+                    <img class="img-h2-hobbies" src="imagenes/hobbies.png" 
+                                alt="logo de hobbies"> 
+                </div>
+
+                <nav class="nav-lista-hobbies">
+                    <ul class="ul-hobbies">
+                        <li class="li-hobbies">
+                            <p class="p-hobbies" href="#">Series</p>
+                            <img class="img-logo-hobbies" 
+                                src="imagenes/tv.png" alt="logo de tv">
+                        </li>
+
+                        <li class="li-hobbies">
+                            <p class="p-hobbies">Jardineria</p>
+                            <img class="img-logo-hobbies" 
+                                src="imagenes/jardineria.png" alt="logo de jardineria">
+                        </li>
+
+                        <li class="li-hobbies">
+                            <p class="p-hobbies texto-programar">Programar</p>
+                            <img class="img-logo-hobbies img-computador" 
+                                src="imagenes/programar.png" alt="logo de programacion">
+                        </li>
+                    </ul>
+                </nav>
+       
+            </section>
+<!------- Seccion formacion academica ---------
+<!------- Seccion experiencia profecional --------
+<!------- Seccion contacto -----------
+        </main>
+<!------------- FOOTER -----------------
+        <footer class="footer">
+            <p class="p-rodapie">&copy Desarrollado por Soledad Arguello</p>
+            <p class="p-rodapie-anio">2022</p>
+        </footer>
+    </body>
+</html>

@@ -1,0 +1,28 @@
+.menu__listas{
+    display: flex;
+    list-style: none;  
+}
+.menu__link{
+    color: #252424;
+    text-decoration: none;
+    padding: 0 10px;
+}
+.menu__link:hover {
+    text-decoration: underline;
+    border-left: #252424;
+}
+
+@media screen and (min-width: 0){
+    .menu__link{
+        font-size: 10px;
+        padding: 0 3px;
+    } 
+    
+}
+
+@media screen and (min-width: 768px){
+    .menu__link{
+        font-size: 1.15rem;
+        padding: 0 6px;
+    } 
+}
