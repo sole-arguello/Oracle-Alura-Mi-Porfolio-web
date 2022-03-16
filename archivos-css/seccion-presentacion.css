@@ -14,7 +14,7 @@ body{
 }
 .foto{
     float: right;
-    width: 22%;
+    width: 25%;
     margin: 0 10% 0 0;
     border-radius: 100%;
 }
@@ -24,23 +24,23 @@ body{
 .banner__subtitulo{
     font-size: 40px;
     line-height: 1.5em;
-    margin: 0 5% 0 20%;
+    margin: 0 5% 0 10%;
 }
 .banner__texto1{
     font-size: 30px;
     font-weight: 500;
     line-height: 1.5em;
-    padding: 0 5% 0 20%;
+    padding: 0 5% 0 10%;
 }
 .banner__texto2{
     font-size: 25px;
     font-weight: 400;
     line-height: 1.5em;
-    padding: 0 5% 0 20%;
+    padding: 0 5% 0 10%;
 }
 .banner__menu--redes{
     display: flex; 
-    margin: 3% 0 0 13%;  
+    margin: 3% 0 0 6%;  
 }
 .banner__lista--redes{
     list-style: none;
@@ -63,7 +63,7 @@ body{
     height: 100%;
 }
 
-@media screen and (max-width: 480px){
+@media screen and (max-width: 800px){
     .texto{
         width: 100%;
     }
