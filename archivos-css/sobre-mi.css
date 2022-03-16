@@ -1,0 +1,28 @@
+.contenido__sobremi{
+    padding: 50px 10%;
+    margin:0 auto;
+    width: 100%;
+}
+.sobremi__subtitulo{
+    padding: 0 0 20px 0;
+}
+.sobremi__descripcion{
+    padding: 2% 15% 0 5%;
+}
+.sobremi__descripcion--texto{
+    line-height: 1.5rem;
+}
+.sobremi__firma{
+    width: 100%;
+}
+.sobremi__firma--img{
+    width: 15%;
+    margin: 20px 0 0 500px;
+}
+
+@media screen and (max-width: 480px){
+   
+}
+
+
+

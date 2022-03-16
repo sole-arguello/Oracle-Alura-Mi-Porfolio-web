@@ -3,7 +3,7 @@
     <head>
         <link href="https://fonts.googleapis.com/css?family=Pacifico|Roboto:100,300,400,500,700,900" rel="stylesheet" />
         <meta charset="UTF-8">
-        <meta name="viewport" content="width=divice-width, initial-scale=1.0">
+        <meta name="viewport" content="width=divice-width">
         <title>Mi Porfolio</title>
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
         <link rel="stylesheet" href="archivos-css/normalize.css">
@@ -11,12 +11,14 @@
         <link rel="stylesheet" href="archivos-css/cabecera.css">
         <link rel="stylesheet" href="archivos-css/cabecera-contenido.css">
         <link rel="stylesheet" href="archivos-css/seccion-presentacion.css">
+        <link rel="stylesheet" href="archivos-css/sobre-mi.css">
     </head>
     <body>
-<!----------- Encabezado con menu ---------------->
+<!----------- Encabezado con menu ----------------
         <div class="contenido__cabecera">
+            <a name="inicio"></a>
             <header class="cabecera">
-
+                
                 <div class="cabecera__nombre">
                     <h1 class="cabecera__titulo">
                         <a class="cabecera__titulo--nombre">
@@ -28,10 +30,10 @@
                 <div class="contenido__menu">
                     
                     <div class="menu">
-                    <!--<input type="checkbox" id="btn-menu"/><!--funciona como boton--
+                    <input type="checkbox" id="btn-menu"/>funciona como boton--
                     <label class="desplegable__boton" for="btn-menu">
                     <i class="fa-solid fa-bars logo-menu"></i>Menu</label>
-                    -->
+                    
                     <nav class="menu__navegacion">
                         <ul class="menu__listas">    
                             <li class="menu__items"><a class="menu__link" href="#inicio">Inicio</a></li>
@@ -46,24 +48,26 @@
                     </div>
 
                 </div>
-                <a name="inicio"></a>
+                
             </header>
         </div>
    
-<!-------- Cuerpo de la pagina ------------>
+<------ Cuerpo de la pagina ------------>
         <main>
 <!-------- Seccion HOME de presentacion --------->
             <section class="banner__presentacion">
 
-                <div class="banner__presentacion--foto">
-                    <img class="foto" src="imagenes/fotoporfolio.jpeg" 
+            <div class="banner__presentacion--foto">
+                <img class="foto" src="imagenes/fotoporfolio.jpeg" 
                     alt="Foto personal del porfolio">
+                <div class="texto">
+                    <h2 class="banner__subtitulo">Bienvenidos a mi porfolio web</h2>
                 
-                <h2 class="banner__subtitulo">Bienvenidos a mi porfolio web</h2>
+                    <p class="banner__texto1"> Mi nombre es Arguello Soledad y construyo paginas web</p>
+                    <p class="banner__texto2">Soy Estudiante de Desarrollo Web,tengo 45 años, vivo en 
+                    Argentina y actualmente participo en el proyecto Oracle One en AluraLatam.</p>
+                </div>
                 
-                <p class="banner__texto1"> Mi nombre es Arguello Soledad y construyo paginas web</p>
-                <p class="banner__texto2">Soy Estudiante de Desarrollo Web,tengo 45 años, vivo en 
-                Argentina y actualmente participo en el proyecto Oracle One en AluraLatam.</p>
                 
                 <div class="banner__redes">
                     <ul class="banner__menu--redes"><!--etiqueta de bloque-->
@@ -85,44 +89,34 @@
                         </li>
                     </ul>
                 </div>
+            </div>
                 <a name="sobremi"></a>
             
             </section>
-            <!--<section id="inicio" class="seccion__presentacion">
-                <div class="contenido__presentacion">
-                    <div class="foto">
-                        
-                    </div>
+<!------- Seccion de Sobre Mi -------------
+            <section class="seccion__sobremi">
+                <div class="contenido__sobremi"> 
+                    <h2  class="sobremi__subtitulo">Sobre mi</h2>               
 
-                    <div class="descripcion">
-                        
-                    </div>
-                </div>
-            </section>-->
-<!-------- Seccion de Sobre Mi -------------
-            <section id="sobremi" class="seccion-sobre-mi secciones">
-                <h2  class="h2-sobre-mi">Sobre mi</h2>                
-                <div class="div-contenido-sobremi">
-
-                    <p class="p-sobre-mi">Empece mi trayectoria profesional en atencion al cliente en call center para telefonica.
+                    <p class="sobremi__descripcion--texto">Empece mi trayectoria profesional en atencion al cliente en call center para telefonica.
                         Actualmente soy estudiante de Desarrollo Web y Aplicaciones Digiales (Titulos intermedios: 
-                        Programadora - Desarrador Full Stack - Programador de dispositivos Móviles).</p><br>
-            
-                    <p class="p-sobre-mi">Soy una persona curiosa, me gusta resolver problemas, soy autodidacta, continuamente busco 
+                        Programadora - Desarrador Full Stack - Programador de dispositivos Móviles).
+                    <br><br>
+                        Soy una persona curiosa, me gusta resolver problemas, soy autodidacta, continuamente busco 
                         capacitarme y los desafios me motivan a encontrar las mejores soluciones.
                         Actualmente estoy en el Proyecto One de Oracle y Alura, capacitandome como Full Stack Junior, 
                         me gusta trabajar en equipo, cooperando con todos y apoyando de la mejor manera posoble, 
-                        con grande satisfaccion en esnseñar y aprender.</p><br>
-            
-                    <p class="p-sobre-mi">Busco oportunidades para hacer practicas en el area de tecnologia de la informacion, 
+                        con grande satisfaccion en esnseñar y aprender.
+                    <br><br>
+                        Busco oportunidades para hacer practicas en el area de tecnologia de la informacion, 
                         donde poder desarrollar   los conocimientos tecnicos en los cuales estoy siendo capacitada, 
-                        adquiriendo asi experiencia y crecer junto a la empresa y mis compañeros de trabajo.</p>
-                 
+                        adquiriendo asi experiencia y crecer junto a la empresa y mis compañeros de trabajo.
+                    </p>
+                    <img class="sobremi__firma--img" 
+                    src="imagenes/firma.png" alt="mi firma personal">
                 </div>
-                <div class="div-firma">
-                    <img class="img-firma-sobre-mi" 
-                    src="imagenes/firma.png" alt="mi firma personal"> 
-                </div>
+
+                <a name="skills"></a>
                 
             </section>
 <!-------- Seccion de skills -------------

@@ -1,67 +1,44 @@
 .banner__presentacion--foto{
-    /*padding: 9em 0;
-    width:940px;
-    margin:0 auto;
-    background: linear-gradient(#ffff,#EAF2FD);
-    */padding: 9em 0;
-    width:1100px;
-    margin:0 auto;
+    padding: 9em 0;
+    width:100%;
+    margin: 0 auto;
     background: url(../imagenes/banner.png);
     background-repeat: no-repeat;
     background-size: cover; 
-    height: 45vw;   
+    height: auto;   
 }
 .foto{
-    /*width: 120px;
-    float: left;
-    margin: 0 20px 20px 0;
-    border-radius: 30px;
-    box-shadow: 10px 10px 40px 15px #000000;*/
     float: right;
-    width: 350px;
-    /*max-width: 350px;
-    max-height: 350px;*/
+    width: 30%;
     margin: 1% 5% 0 0;
     border-radius: 100%;
 }
+.texto{
+    width: 70%;
+}
 .banner__subtitulo{
-    /* width: 100%;
-    text-align: right;
-    font-size: 25px;
-    line-height: 1.5em;/*interlineado*/
     font-size: 40px;
     line-height: 1.5em;
     margin: 3% 5% 0 5%;
-    width: 50%;
 }
 .banner__texto1{
-    /* width: 100%;
-    text-align: right;
-    font-size: 25px;
-    line-height: 1.5em;/*interlineado*/
     font-size: 30px;
     font-weight: 500;
     line-height: 1.5em;
     padding: 2% 5% 0 5%;
-    width: 58.5%;
 }
 .banner__texto2{
-    /* width: 100%;
-    text-align: right;
-    font-size: 25px;
-    line-height: 1.5em;/*interlineado*/
     font-size: 25px;
     font-weight: 400;
     line-height: 1.5em;
     padding: 2% 5% 0 5%;
-    width: 80%;
 }
 .banner__menu--redes{
     display: flex;   
 }
 .banner__lista--redes{
     list-style: none;
-    padding: 5% 2% 0 8%;
+    padding: 30px 2% 0 8%;
 }
 .banner__link--redes{
     color: #252424;
@@ -73,47 +50,32 @@
     text-decoration: underline;
 }
 
-@media screen and (max-width: 300px){
-    
-    .banner__presentacion{
-        margin-top: 50px;
-    }
-    .banner__presentacion--foto{
-        width: 510px;
-        height: auto;
+@media screen and (max-width: 480px){
+    .texto{
+        width: 100%;
     }
     .foto{
-        width: 150px;
-        margin: 1% 5% 0 0;
-        border-radius: 100%;
+        float:none;
+        margin-left: 5%;
     }
     .banner__subtitulo{
-        font-size: 22px;
-        line-height: 1.5em;
-        margin: 3% 5% 0 5%;
-        width: 50%;
+        font-size: 22px;    
     }
     .banner__texto1{
-        font-size: 18px;
-        font-weight: 500;
-        line-height: 1.5em;
-        padding: 2% 5% 0 5%;
-        width: 58.5%;
+        font-size: 18px;        
     }
     .banner__texto2{
         font-size: 15px;
-        font-weight: 400;
-        line-height: 1.5em;
-        padding: 2% 5% 0 5%;
-        width: 80%;
+    }
+    .banner__link--redes{
+        font-size: 15px;
     }
     .banner__lista--redes{
-        list-style: none;
-        padding: 5% 2% 0 5%;
-    }   
+        padding: 30px 2% 0 5%;
+    } 
 }
 
-@media screen and (max-width: 840px){
+/*@media screen and (max-width: 840px){
     
     .banner__presentacion{
         margin-top: 10px;
@@ -151,4 +113,4 @@
         list-style: none;
         padding: 5% 2% 0 8%;
     }   
-}
+}*/

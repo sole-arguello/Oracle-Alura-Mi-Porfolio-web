@@ -25,17 +25,17 @@
 .cabecera__titulo--nombre{
     font-size: 1.20rem;
 }
-
+/*
 @media screen and (max-width: 500px){
     .cabecera{
         position: fixed;
         width: 100%;
         top: 0;
      }
-     .cabecera__nombre{
-         padding: 10px 0 10px 250px;
-     }
-}
+     .cabecera__titulo--nombre{
+        font-size: 16px;
+    }
+}*/
 
 
 
