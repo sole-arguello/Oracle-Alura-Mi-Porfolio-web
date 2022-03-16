@@ -14,28 +14,18 @@
     background-color: rgb(248, 246, 246);
 }
 
-/*.cabecera__contenido{
-    background: url(../imagenes/banner.png);
-    background-size: cover;
-    background-repeat: no-repeat;
-    align-items: center;
-    display: flex;
-    justify-content: space-between;
-}*/
 .cabecera__titulo--nombre{
     font-size: 1.20rem;
 }
-/*
-@media screen and (max-width: 500px){
-    .cabecera{
-        position: fixed;
-        width: 100%;
-        top: 0;
-     }
-     .cabecera__titulo--nombre{
-        font-size: 16px;
+
+@media screen and (max-width: 480px){
+    .cabecera__nombre{
+        padding: 1px 0 1px 100px;
     }
-}*/
+    .cabecera__titulo--nombre{
+        font-size: 15px;
+    }
+}
 
 
 

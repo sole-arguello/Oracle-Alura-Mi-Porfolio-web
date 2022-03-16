@@ -34,10 +34,23 @@
     text-decoration: underline;
     border-left: #252424;
 }
-/*
-@media screen and (max-width: 500px){
+
+@media screen and (max-width: 480px){
+    .contenido__menu{
+        padding: 0;
+        height: 20px;
+    }
+
+    .menu{
+
+    }
     .menu__navegacion{
-        height: 10%;
+        
     }
     
-}*/
+    .menu__link{
+        padding: 0 6px 0 2px;
+        font-size: 10px;
+    }
+    
+}
