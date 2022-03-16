@@ -1,18 +1,8 @@
-*{
-    padding: 0;
-    margin: 0;
-    list-style: none;
-    box-sizing: border-box;
-}
 body {
     margin: 0;
-    
+    width: 100vw;
     background-color: rgb(226, 234, 235);
     font-family: Roboto, sans-serif;
-}
-main{
-    width: auto;
-    
 }
 
 h1, h2, h3, h4, h5, h6 {
