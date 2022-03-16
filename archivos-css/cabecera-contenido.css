@@ -38,19 +38,32 @@
 @media screen and (max-width: 480px){
     .contenido__menu{
         padding: 0;
-        height: 20px;
+        height: 30px;
     }
-
-    .menu{
-
+    .menu__listas{
+        margin: 0;
     }
-    .menu__navegacion{
-        
-    }
-    
     .menu__link{
-        padding: 0 6px 0 2px;
+        padding: 0 4px;
         font-size: 10px;
     }
-    
 }
+/*------tablet----*/
+@media screen and (min-width: 480px){
+    .contenido__menu{
+        height: 2px;
+        padding: 20px;
+    }
+    .menu__navegacion{
+        height: auto;
+    }
+    .menu__listas{
+        margin: 0;
+    }
+    .menu__link{
+        padding: 0 15px;
+        font-size: 15px;
+    }
+
+}
+
