@@ -1,12 +1,14 @@
 .contenido__menu{
     width: 100%;
+    display: flex;
+    justify-content: flex-end;
     height: 50px;
     background: #f3f3f3;
     padding: 20px 20px;
 }
 .menu{
+    margin-right: 10%;
     max-width: 940px;
-    margin: auto;
     height: 100%;
 }
 .menu__navegacion{
@@ -37,8 +39,12 @@
 
 @media screen and (max-width: 480px){
     .contenido__menu{
+        justify-content: center;
         padding: 0;
         height: 30px;
+    }
+    .menu{
+        margin-right: 0;
     }
     .menu__listas{
         margin: 0;
