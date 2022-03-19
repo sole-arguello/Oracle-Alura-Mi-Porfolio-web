@@ -1,95 +1,105 @@
 .seccion__skills{
-    width: 50%;/*quiebre 3 y3*/
-    height: auto;
-    margin-left: 30%;
-    margin-right: 30%;
-    margin: 0 30% 0 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 8%;
 }
 .skills__subtitulo{
-    font-size: 30px;
-    text-align: center;
-    margin: 90px 0 0 0;
+    font-size: 50px
 }
-
-.skills__menu{
+.skills__contenido--menu{
+    width: 100%;
     display: flex;
-    justify-content: center;
+    padding: 0 1%;
+}
+.skills__menu{
+    width: 100%;
+    height: auto;
+    display: flex;
+    margin: 5%;
+    padding: 0 2%;
     flex-wrap: wrap;
 }
 .skills__lista{
-/*acomoda todos los elemde los cuadrados*/
-    width: 180px;
-    height: 200px;
-    border: 3px solid;
-    border-radius: 5px;
-    text-align: center;
-    list-style: none;
-    margin: 0 15px 20px 15px;
+    width: calc((100% / 6) - (16px + 2px));
+    /*min-width: calc((100% / 3) - (16px + 2px));*/
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    overflow: hidden;
+    border-radius: 0 15px;
+    border: 1px solid;
+    margin: 8px;
+    padding-bottom: 25px;    
 }
 .skills__nombre{
-    font-size: 20px;
-    font-weight: bold;
-}
-.skills__logo--js, 
-.skills__logo--html,
-.skills__logo--css,
-.skills__logo--python{
     display: flex;
-    font-size: 80px;
-    margin: 20px 0 30px 55px;
+    justify-content: center;
+    font-size: 2vw;
+    font-weight: bold;
+    padding: 0 1%;
+    top: 0;
 }
-.logo-git{
-   display: flex; 
+.iconos__logos{
+    font-size: 100px;
+    margin-bottom: 20px;
 }
-.skills__logo--git, 
-.skills__logo--github{
-    font-size: 70px;
-    margin: 10px 0 30px 0;
-}
-.skills__logo--softskills{
-   /* width: 15%;*/
-   width: 120px;
-   height: 90px;
-   margin: 5px 0;
+.logo--git, .logo--github{
+    font-size: 6vw;
+    margin: 20px 0;
 }
 .skills__certificados{
+    font-size: 1.5vw;
+    font-weight: bold;
     text-decoration: none;
+    color: inherit;
+    cursor: pointer;
 }
-@media screen and (max-width: 480px){
-    .seccion__skills{
-        width: 95%;
-        margin: 0 5px;
-    }
+.skills__certificados:hover{
+    text-decoration: underline;
+    color: rgb(65, 61, 61);
+    font-weight: bolder;
+}
+.img-logo{
+    width: 65%;
+    margin-bottom: 10px;
+}
+/*--- Tablet y ceculares de pie ----*/
+@media screen and (max-width: 770px){
     .skills__lista{
-        /*acomoda todos los elem de los cuadrados*/
-            width: 120px;
-            margin: 0 5px 20px 5px;
-        }
-        .skills__nombre{
-            font-size: 20px;
-        }
-        .skills__logo--js, 
-        .skills__logo--html,
-        .skills__logo--css,
-        .skills__logo--python{
-            font-size: 70px;
-            margin: 0 0 20px 30px;
-        }
-        .skills__logo--git, 
-        .skills__logo--github{
-            font-size: 50px;
-            margin: 15px 0 35px 0;
-        }
-      
-}
-/*
-@media  screen and (max-width: 922px) {
-    .seccion__skills{
-        border: 1px solid red;
-        width: 60%;
-        margin: 0 5px;
+        width: calc((100% / 2) - (16px + 2px));
     }
-  
-}*/
+    .skills__nombre{
+        font-size: 3vw;
+    }
+    .logo--git, .logo--github{
+        font-size: 9vw;
+    }
+    .skills__certificados{
+        font-size: 2.5vw;
+    }
+    .img-logo{
+        width: 47%;
+    }
+}
 
+/*------Modo tablet y celular horizontal-----------*/
+@media screen and (orientation: landscape) and (max-width: 1030px){
+    .skills__lista{
+        width: calc((100% / 3) - (16px + 2px));
+    }
+    .skills__nombre{
+        font-size: 3vw;
+    }
+    .logo--git, .logo--github{
+        font-size: 9vw;
+    }
+    .skills__certificados{
+        font-size: 2.5vw;
+    }
+    .img-logo{
+        width: 47%;
+    }
 
+}
