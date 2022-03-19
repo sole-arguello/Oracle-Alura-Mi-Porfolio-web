@@ -66,26 +66,7 @@
     margin-bottom: 10px;
 }
 /*--- Tablet y ceculares de pie ----*/
-@media screen and (max-width: 770px){
-    .skills__lista{
-        width: calc((100% / 2) - (16px + 2px));
-    }
-    .skills__nombre{
-        font-size: 3vw;
-    }
-    .logo--git, .logo--github{
-        font-size: 9vw;
-    }
-    .skills__certificados{
-        font-size: 2.5vw;
-    }
-    .img-logo{
-        width: 47%;
-    }
-}
-
-/*------Modo tablet y celular horizontal-----------*/
-@media screen and (orientation: landscape) and (max-width: 1030px){
+@media screen and (max-width: 980px){
     .skills__lista{
         width: calc((100% / 3) - (16px + 2px));
     }
@@ -100,6 +81,35 @@
     }
     .img-logo{
         width: 47%;
+    }
+}
+/*---- Celular y de pie ---*/
+@media screen and (orientation: portrait) and (max-width: 700px){
+    .skills__lista{
+        width: calc((100% / 2) - (16px + 2px));
+    }
+    .skills__nombre{
+        font-size: 5vw;
+    }
+    .skills__certificados{
+        font-size: 4.5vw;
+    }
+}
+
+/*------Modo tablet y celular horizontal-----------*
+@media screen and (orientation: landscape) and (max-width: 1030px){
+    /*.skills__lista{
+        width: calc((100% / 3) - (16px + 2px));
+    }*/
+    .logo--git, .logo--github{
+        font-size: 6.5vw;
+        margin-top: 20px;
+        margin-bottom: 38px;
+    }
+    .img-logo{
+        width: 71%;
+        margin-bottom: 23px;
+        margin-top: 10px;
     }
 
 }
