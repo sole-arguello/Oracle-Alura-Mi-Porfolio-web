@@ -71,7 +71,48 @@
     margin-bottom: 10px;
 }
 
-@media screen and (max-width: 850px){
+@media screen and (orientation: landscape) and (max-width: 1030px){
+    .seccion__skills{
+        margin-top: 13%;
+        margin-bottom: 13%;
+    }
+    .logo--git, .logo--github{
+        font-size: 6.5vw;
+        margin-bottom: 34px;
+    }
+    .img-logo{
+        width: 79%;
+        margin-bottom: 18px;
+    }
+}
+@media screen and (orientation: portrait) and (max-width: 780px){
+    .seccion__skills{
+        margin-top: 15%;
+        margin-bottom: 15%;
+    }
+    .skills__contenido--subtitulo{
+        margin-bottom: 25%;
+    }
+    .skills__lista{
+        width: calc((100% / 3) - (16px + 2px));
+    }
+    .logo--git, .logo--github{
+            font-size: 9vw;
+    }
+    .skills__nombre{
+        font-size: 3vw;
+    }
+    .img-logo{
+        width: 54%;
+    }
+    .skills__certificados{
+        font-size: 2vw;
+    }
+}
+@media screen and (orientation: landscape) and (max-width: 830px){
+    .seccion__skills{
+        margin-top: 5%;
+    }
     .skills__lista{
         width: calc((100% / 3) - (16px + 2px));
     }
@@ -79,15 +120,13 @@
         font-size: 3vw;
     }
     .logo--git, .logo--github{
-        font-size: 9vw;
-        margin-bottom: 32px;
-    }
-    .skills__certificados{
-        font-size: 2.5vw;
+        font-size: 8vw;
     }
     .img-logo{
-        width: 51%;
-        margin-bottom: 21px;
+        width: 46%;
+    }
+    .skills__certificados{
+        font-size: 2vw;
     }
 }
 
@@ -95,28 +134,17 @@
     .skills__lista{
         width: calc((100% / 2) - (16px + 2px));
     }
-    .skills__nombre{
+    .iconos__logos {
+        font-size: 20vw;
+    }
+    .logo--git, .logo--github{
+        font-size: 13vw;
+    }
+    .skills__nombre {
         font-size: 5vw;
     }
     .skills__certificados{
-        font-size: 4.5vw;
+        font-size: 4vw;
     }
 }
 
-
-@media screen and (orientation: landscape) and (max-width: 1030px){
-    /*.skills__lista{
-        width: calc((100% / 3) - (16px + 2px));
-    }*/
-    .logo--git, .logo--github{
-        font-size: 6.5vw;
-        margin-top: 20px;
-        margin-bottom: 38px;
-    }
-    .img-logo{
-        width: 71%;
-        margin-bottom: 23px;
-        margin-top: 10px;
-    }
-
-}
