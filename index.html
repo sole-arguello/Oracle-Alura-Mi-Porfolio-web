@@ -14,6 +14,7 @@
         <link rel="stylesheet" href="archivos-css/seccion-presentacion.css">
         <link rel="stylesheet" href="archivos-css/seccion-sobre-mi.css">
         <link rel="stylesheet" href="archivos-css/seccion-skills.css">
+        <limk rel="stylesheet" href="archivos-css/seccion-hobbies.css">
     </head>
     <body>
 <!----------- Encabezado con menu ---------------->
@@ -56,7 +57,7 @@
    
 <!------- Cuerpo de la pagina ------------>
         <main>
-<!-------- Seccion HOME de presentacion --------->
+<!-------- Seccion HOME de presentacion ---------
             <section class="seccion__presentacion">
                 
                 <div class="banner__foto">
@@ -73,7 +74,7 @@
                         tengo 45 años, vivo en Argentina y actualmente participo en el proyecto 
                         Oracle One en AluraLatam.</p>
                         
-                    <ul class="banner__menu--redes"><!--etiqueta de bloque-->
+                    <ul class="banner__menu--redes"><!--etiqueta de bloque--
                         <li class="banner__lista--redes">
                             <a class="banner__link--redes" href="https://github.com/sole-arguello">
                                     GitHub<img class="banner__redes--icono" src="imagenes/Vector.png"></a>
@@ -94,7 +95,7 @@
                 </div>
                 
             </section>
-<!------- Seccion de Sobre Mi -------------->
+<!------- Seccion de Sobre Mi --------------
             
             <section class="seccion__sobremi">
                 <a name="sobremi"></a>
@@ -129,7 +130,7 @@
                 <a name="skills"></a>
                 
             </section>
-<!-------- Seccion de skills --------------->
+<!-------- Seccion de skills ---------------
             <section class="seccion__skills">
                 <div class="skills__contenido--titulo">
                     <h2  class="skills__subtitulo">Skills <i class="fa-solid fa-code"></i> </h2>
@@ -179,36 +180,45 @@
                     </ul>
                 </div>
 
-            </section>
-<!------ Secccion de Hobbies ---------------
-            <section class="seccion-hobbies">
-                <div class="div-h2-hobbies">
-                    <h2 id="hobbies" class="h2-hobbies">Hobbies</h2>
-                    <img class="img-h2-hobbies" src="imagenes/hobbies.png" 
+            </section>-->
+<!------ Secccion de Hobbies --------------->
+            <section class="seccion__hobbies">
+
+                <div class="hobbies__caja--subtitulo">
+                    <h2 class="hobbies__subtitulo">Hobbies</h2>
+                    <!--<i class="fa-solid fa-face-smile"></i>-->
+                    <img class="hobbies__img--logo" src="imagenes/hobbies.png" 
                                 alt="logo de hobbies"> 
                 </div>
 
-                <nav class="nav-lista-hobbies">
-                    <ul class="ul-hobbies">
-                        <li class="li-hobbies">
-                            <p class="p-hobbies" href="#">Series</p>
-                            <img class="img-logo-hobbies" 
+                <div class="hobbies__caja--menu">
+                    <ul class="hobbies__menu">
+                        <li class="hobbies__menu--lista">
+                            <p class="hobbies__menu--titulo" href="#">Series</p>
+                            <!--<i class="fa-solid fa-tv"></i>-->
+                            <img class="hobbies__img--tv" 
                                 src="imagenes/tv.png" alt="logo de tv">
                         </li>
 
-                        <li class="li-hobbies">
-                            <p class="p-hobbies">Jardineria</p>
-                            <img class="img-logo-hobbies" 
+                        <li class="hobbies__menu--lista">
+                            <p class="hobbies__menu--titulo">Jardineria</p>
+                            <img class="hobbies__img--jardineria" 
                                 src="imagenes/jardineria.png" alt="logo de jardineria">
                         </li>
 
-                        <li class="li-hobbies">
-                            <p class="p-hobbies texto-programar">Programar</p>
-                            <img class="img-logo-hobbies img-computador" 
-                                src="imagenes/programar.png" alt="logo de programacion">
+                        <li class="hobbies__menu--lista">
+                            <p class="hobbies__menu--titulo">Programar</p>
+                            <i class="fa-solid fa-laptop-code"></i>
+                            <!--<img class="img-logo-hobbies img-computador" 
+                                src="imagenes/programar.png" alt="logo de programacion">-->
+                        </li>
+
+                        <li class="hobbies__menu--lista">
+                            <p class="hobbies__menu--titulo">Musica</p>
+                            <i class="fa-solid fa-music"></i>
                         </li>
                     </ul>
-                </nav>
+                </div>
        
             </section>
 <!------- Seccion formacion academica ---------
