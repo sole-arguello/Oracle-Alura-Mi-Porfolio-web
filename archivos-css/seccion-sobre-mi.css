@@ -82,11 +82,12 @@
 }
 @media screen and (orientation: portrait) and (max-width: 420px){
     .sobremi{
-        padding: 20% 0 0% 2%;  
+        padding: 30% 0 0% 2%;  
     }
     .sobremi__subtitulo{
         font-size: 5vw;
         padding-top: 30px;
+        padding-bottom: 20px;
     }
     .sobremi__descripcion{
         padding: 1% 0 3% 2%;
@@ -94,13 +95,13 @@
     }
     .sobremi__descripcion--texto{
         font-size: 3vw;
-        line-height: 1rem;
+        line-height: 1.3rem;
     }
     .sobremi__firma{
         display: flex;
         flex-direction: row;
         justify-content: flex-end;
-        padding-bottom: 30px;
+        padding-bottom: 83px;
     }
     .sobremi__firma--img{
         width: 40%;
