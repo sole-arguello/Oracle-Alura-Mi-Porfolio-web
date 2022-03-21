@@ -5,7 +5,7 @@
     padding-top: 8%;
 }
 .skills__subtitulo{
-    font-size: 50px
+    font-size: 5vw;
 }
 .skills__contenido--menu{
     width: 100%;
@@ -30,6 +30,7 @@
     overflow: hidden;
     border-radius: 0 15px;
     border: 1px solid;
+    box-shadow: 2px 2px 5px #222121;
     margin: 8px;
     padding-bottom: 25px;    
 }
@@ -53,7 +54,6 @@
     font-size: 1.5vw;
     font-weight: bold;
     border: 1px solid;
-    border-radius: 5px;
     border-radius: 5px;
     box-shadow: 2px 2px 5px #222121;
     padding: 3px;
