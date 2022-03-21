@@ -192,37 +192,4 @@ body{
         font-size: 4vw;
     }
 }
-/*
-@media screen and (max-width: 800px){
-    .texto{
-        width: 100%;
-    }
-    .foto{
-        float:none;
-        margin-left: 5%;
-    }
-    .banner__subtitulo{
-        font-size: 22px; 
-        margin-left: 5%;  
-    }
-    .banner__texto1{
-        font-size: 18px;
-        padding: 0 2% 0 5%;       
-    }
-    .banner__texto2{
-        font-size: 15px;
-        padding: 0 2% 0 5%; 
-    }
-    .banner__menu--redes{
-        margin: 3% 0 0 5%;  
-    }
-    .banner__link--redes{
-        font-size: 15px;
-        
-    }
-    .banner__lista--redes{
-        padding: 25px 6% 0 0;
-    } 
-}
-*/
 
