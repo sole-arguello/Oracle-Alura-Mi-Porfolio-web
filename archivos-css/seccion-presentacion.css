@@ -86,11 +86,40 @@ body{
 @media screen and (orientation: portrait) and (max-width: 780px){
 
 }
-@media screen and (orientation: landscape) and (max-width: 830px){
+@media screen and (orientation: landscape) and (max-width: 900px){
 
 }
-@media screen and (orientation: portrait) and (max-width: 380px){
+@media screen and (orientation: portrait) and (max-width: 420px){
 
+    .seccion__presentacion{
+        display: block;
+        margin-top: 12%;
+        padding: 11% 0 11% 0;
+    }
+    .foto{
+        width: 75%;
+    }
+    .banner__presentacion{
+        width: 95%;
+        padding: 2% 1% 0 3%;
+        margin-top: -11px;
+    }
+    .banner__presentacion--subtitulo{
+        font-size: 5.5vw;
+    }
+    .banner__presentacion--texto1{
+        font-size: 5vw;
+        width: 100%;
+    }
+    .banner__presentacion--texto2{
+        font-size: 4.5vw;
+    }
+    .banner__lista--redes{
+        padding: 0 7% 0 0;
+    }
+    .banner__link--redes{
+        font-size: 4vw;
+    }
 }
 /*
 @media screen and (max-width: 800px){
