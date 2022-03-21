@@ -164,10 +164,11 @@ body{
     .seccion__presentacion{
         display: block;
         margin-top: 12%;
-        padding: 15% 0 15% 0;
+        padding: 30% 0 15% 0;
     }
     .foto{
-        width: 80%;
+        width: 120%;
+        margin-left: 40%;
     }
     .banner__presentacion{
         width: 95%;
@@ -176,6 +177,7 @@ body{
     }
     .banner__presentacion--subtitulo{
         font-size: 5.5vw;
+        margin-top: 20px;
     }
     .banner__presentacion--texto1{
         font-size: 5vw;
