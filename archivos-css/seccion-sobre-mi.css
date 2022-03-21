@@ -94,6 +94,7 @@
     }
     .sobremi__descripcion--texto{
         font-size: 3vw;
+        line-height: 1rem;
     }
     .sobremi__firma{
         display: flex;
