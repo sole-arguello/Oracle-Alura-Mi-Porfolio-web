@@ -60,7 +60,19 @@
 }
 
 @media screen and (orientation: landscape) and (max-width: 1030px){
-   
+    .academica__subtitulo{
+        font-size: 5vw;
+    }
+    .academica__menu--texto1{
+        font-size: 1.2vw;
+        line-height: 1.2rem;        
+    }
+    .academica__menu--fecha{
+        font-size: 1.1vw;
+    }
+    .fechaUtn{
+        margin-top: 14px;
+    }
 }
 @media screen and (orientation: portrait) and (max-width: 780px){
     .academica__subtitulo{
