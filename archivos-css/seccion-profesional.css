@@ -1,0 +1,45 @@
+.seccion__formacionProfesional{
+    background: red;
+    padding: 2%;
+}
+.caja__formacionProfesional--subtitulo{
+    background: yellow;
+    padding: 2%;
+}
+.formacionProfesional__subtitulo{
+    border: 1px solid;
+}
+.caja__formacionProfesional--Encriptador,
+.caja__formacionProfesional--ahorcado{
+    background: yellowgreen;
+    padding: 2%;
+}
+.formacionProfesional__img{
+
+    border: 1px solid red;
+}
+.caja__encriptador--textos,
+.caja__juego--texto{
+    background: rebeccapurple;
+    padding: 2%;
+}
+.formacionProfesional__titulo{
+    background: rosybrown;
+    padding: 2%;
+}
+.formacionProfesional__texto{
+    background: green;
+    padding: 2%;
+}
+.formacionProfesional__menu{
+    background: gray;
+    padding: 2%;
+}
+.formacionProfesional__menu--lista{
+    background: brown;
+    padding: 2%;
+}
+.formacionProfesional__link{
+    border: 1px solid red;
+}
+
