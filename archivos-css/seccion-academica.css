@@ -1,9 +1,10 @@
 .seccion__academica{
+    background: gainsboro;
     display: flex;
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 2% 0;
+    padding: 8%;
 }
 .academica__caja--subtitulo{
     padding: 10px 0;

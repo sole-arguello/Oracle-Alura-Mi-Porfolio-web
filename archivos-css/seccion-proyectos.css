@@ -1,0 +1,68 @@
+.seccion__proyectos{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 8%;
+}
+.caja__proyectos--subtitulo{
+    width: 100%;
+    background: yellow;
+    padding: 5% 0 10% 0;
+}
+.proyectos__subtitulo{
+    font-size: 3vw;
+    font-weight: bold;
+    border: 1px solid;
+}
+.caja__proyectos--Encriptador,
+.caja__proyectos--ahorcado{
+    display: flex;
+    padding: 1%;
+    width: 80%;
+}
+.caja--ahorcado{
+    margin-top: 50px;
+    flex-direction: row-reverse;
+}
+.proyectos__img--encriptador{
+    width: 100%;
+    border: 1px solid red;
+}
+.proyectos__img--ahorcado{
+    width: 53%;
+}
+.caja__encriptador--textos,
+.caja__juego--textos{
+    display: flex;
+    flex-direction: column;
+    line-height: 1.2rem;
+    padding: 2%;
+    width: 100%;
+}
+.proyecto__textos--titulo{
+    font-size: 1.5vw;
+}
+.proyectos__textos--subtitulos{
+    font-size: 1.2vw;
+    font-weight: 500;
+}
+.proyectos__menu{
+    width: 100%;
+}
+.proyectos__menu--lista{
+    text-decoration: none;
+    width: 100%;
+}
+
+.proyectos__link{
+    font-size: 1.2vw;
+    border: 1px solid;
+    border-radius: 5px;
+}
+.boton-repo{
+    border: 1px solid;
+}
+.boton-demo{
+    background: gainsboro;
+    border: 1px solid;
+}
