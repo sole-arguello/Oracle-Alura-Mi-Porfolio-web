@@ -2,17 +2,16 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding: 8%;
+    padding: 5% 0;
 }
 .caja__proyectos--subtitulo{
     width: 100%;
-    background: yellow;
     padding: 5% 0 10% 0;
 }
 .proyectos__subtitulo{
     font-size: 3vw;
     font-weight: bold;
-    border: 1px solid;
+    margin: 20px 0 10px 0;
 }
 .caja__proyectos--Encriptador,
 .caja__proyectos--ahorcado{
@@ -21,7 +20,7 @@
     width: 80%;
 }
 .caja--ahorcado{
-    margin-top: 50px;
+    margin-top: 20px;
     flex-direction: row-reverse;
 }
 .proyectos__img--encriptador{
@@ -30,6 +29,7 @@
 }
 .proyectos__img--ahorcado{
     width: 53%;
+    border: 1px solid gainsboro;
 }
 .caja__encriptador--textos,
 .caja__juego--textos{
@@ -38,31 +38,117 @@
     line-height: 1.2rem;
     padding: 2%;
     width: 100%;
+    margin-top: 45px;
 }
 .proyecto__textos--titulo{
     font-size: 1.5vw;
 }
 .proyectos__textos--subtitulos{
     font-size: 1.2vw;
-    font-weight: 500;
 }
 .proyectos__menu{
+    display: flex;
+    list-style: none;
     width: 100%;
 }
 .proyectos__menu--lista{
     text-decoration: none;
-    width: 100%;
+    width: 35%;
 }
 
 .proyectos__link{
     font-size: 1.2vw;
+    padding: 4%;
     border: 1px solid;
-    border-radius: 5px;
-}
-.boton-repo{
-    border: 1px solid;
+    border-radius: 7%;
+    box-shadow: 2px 2px 5px #222121;
+    color: inherit;
+    cursor: pointer;
+    text-decoration: none;
 }
 .boton-demo{
     background: gainsboro;
-    border: 1px solid;
+}
+@media screen and (orientation: landscape) and (max-width: 1030px){/*1380*/
+ 
+}
+
+@media screen and (orientation: portrait) and (max-width: 780px){
+    .proyectos__subtitulo{
+        font-size: 5vw;
+    }
+    .proyectos__textos--titulo{
+        font-size: 2.5vw;
+        line-height: 1.2rem;
+    }
+    .proyectos__textos--subtitulo{
+        font-size: 1.4vw;
+    }
+    .proyectos__menu--lista{
+        width: 55%;
+    }
+    .proyectos__link{
+        font-size: 2vw;
+        padding: 10% 4%
+    }
+    .proyectos__img--ahorcado{
+        width: 60%;
+    }
+}
+
+@media screen and (orientation: landscape) and (max-width: 900px){
+    .proyectos__subtitulo{
+        font-size: 4vw;
+    }
+    .proyectos__menu{
+        width: 117%;
+    }
+    .proyecto__textos--titulo {
+        font-size: 2vw;
+    }
+    .proyectos__textos--subtitulos {
+        font-size: 1.3vw;
+    }
+    .proyectos__link{
+        font-size: 1.3vw;
+        padding: 12% 7%
+    }
+    .proyectos__img--encriptador{
+        width: 93%;
+    }
+    .proyectos__img--ahorcado{
+        width: 62%;
+    }
+
+}
+
+@media screen and (orientation: portrait) and (max-width: 420px){
+    .proyectos__subtitulo{
+        font-size: 5vw;
+    }
+    .caja__proyectos--Encriptador,
+    .caja__proyectos--ahorcado{
+        display: block;
+    }
+    .caja__encriptador--textos,
+    .caja__juego--textos{
+        font-size: 3vw;
+        margin-top: 0;
+    }
+    .proyectos__menu--lista{
+        width: 40%;
+    }
+    .proyecto__textos--titulo {
+        font-size: 4vw;
+    }
+    .proyectos__textos--subtitulos {
+        font-size: 3vw;
+    }
+    .proyectos__link{
+        padding: 10%;
+        font-size: 4vw;
+    }
+    .proyectos__img--ahorcado{
+        width: 100%;
+    }
 }

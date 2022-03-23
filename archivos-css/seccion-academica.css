@@ -4,7 +4,7 @@
     flex-direction: column;
     align-items: center;
     width: 100%;
-    padding: 8%;
+    padding: 8% 0;
 }
 .academica__caja--subtitulo{
     padding: 10px 0;
