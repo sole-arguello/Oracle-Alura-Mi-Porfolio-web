@@ -24,7 +24,7 @@
     flex-direction: row-reverse;
 }
 .proyectos__img--encriptador{
-    width: 100%;
+    width: 90%;
     border: 1px solid red;
 }
 .proyectos__img--ahorcado{
@@ -58,7 +58,7 @@
 
 .proyectos__link{
     font-size: 1.2vw;
-    padding: 4%;
+    padding: 6% 4%;
     border: 1px solid;
     border-radius: 7%;
     box-shadow: 2px 2px 5px #222121;
@@ -66,23 +66,50 @@
     cursor: pointer;
     text-decoration: none;
 }
+.proyectos__link:hover{
+    border: cornflowerblue;
+}
 .boton-demo{
     background: gainsboro;
 }
 @media screen and (orientation: landscape) and (max-width: 1030px){/*1380*/
- 
+    .proyecto__textos--titulo{
+        font-size: 2vw;
+        line-height: 2rem;
+    }
+    .proyectos__textos--subtitulos{
+        font-size: 2vw;
+    }
+    .caja__proyectos--Encriptador{
+        width: 95%;
+    }
+    .caja__juego--textos{
+        margin-left: -50px;
+    }
+    .proyectos__link{
+        font-size: 2vw;
+        padding: 12% 4%;
+    }
+    .proyectos__img--encriptador{
+        width: 88%;
+        margin-left: 8%;
+    }
+    .proyectos__img--ahorcado{
+        width: 55%;
+
+    }
 }
 
 @media screen and (orientation: portrait) and (max-width: 780px){
     .proyectos__subtitulo{
         font-size: 5vw;
     }
-    .proyectos__textos--titulo{
+    .proyecto__textos--titulo{
         font-size: 2.5vw;
-        line-height: 1.2rem;
+        line-height: 2rem;
     }
-    .proyectos__textos--subtitulo{
-        font-size: 1.4vw;
+    .proyectos__textos--subtitulos{
+        font-size: 2vw;
     }
     .proyectos__menu--lista{
         width: 55%;
@@ -90,6 +117,13 @@
     .proyectos__link{
         font-size: 2vw;
         padding: 10% 4%
+    }
+    .caja__proyectos--Encriptador,
+    .caja__proyectos--ahorcado{
+        width: 90%;
+    }
+    .proyectos__img--encriptador{
+        width: 95%;
     }
     .proyectos__img--ahorcado{
         width: 60%;
